@@ -1,0 +1,14 @@
+title: Todd Taomae
+description: Blog and professional portfolio of Todd Taomae.
+
+author: Todd Taomae
+email: ttaomae@gmail.com
+github_username: ttaomae
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
