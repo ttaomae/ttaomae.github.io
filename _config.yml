@@ -9,6 +9,8 @@ github_username: ttaomae
 markdown: kramdown
 theme: minima
 
+permalink: posts/:year/:month/:day/:slug.html
+
 exclude:
   - Gemfile
   - Gemfile.lock
