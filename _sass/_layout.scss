@@ -1,3 +1,6 @@
+/**
+ * Main content
+ */
 .page-wrapper {
   padding: $spacing-unit 0;
 }
@@ -36,6 +39,29 @@ h1.page-title {
 }
 
 /**
+ * Site footer
+ */
+ @mixin footer-width($width) {
+  width: -webkit-calc(#{$width} - (#{$spacing-unit} / 2));
+  width:         calc(#{$width} - (#{$spacing-unit} / 2));
+ }
+
+.footer-col-left {
+    @include footer-width(35%);
+}
+
+.footer-col-right {
+    @include footer-width(65%);
+}
+
+@include media-query($on-laptop) {
+  .footer-col {
+    float: none;
+    @include footer-width(100%);
+  }
+}
+
+/**
  * Content listings (i.e. 'listing' layout)
  */
 .listing-content {
@@ -59,4 +85,22 @@ h1.page-title {
       }
     }
   }
+}
+
+/**
+ * Icons
+ */
+.icon > svg {
+  display: inline-block;
+  vertical-align: baseline;
+  height: 2ex;
+  width: 2ex;
+
+  path {
+    fill: $grey-color;
+  }
+}
+
+.username {
+  vertical-align: baseline;
 }

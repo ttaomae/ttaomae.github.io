@@ -1,0 +1,47 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-left">
+        <ul class="contact-list">
+          <li>
+            {{ site.author | escape }}
+          </li>
+          <li>
+            {% include icon-link.html
+               base_url="mailto:"
+               username=site.email
+               icon="icon-email.svg" %}
+          </li>
+          <li>
+            {% include icon-link.html
+               base_url="https://github.com/"
+               username=site.github_username
+               icon="icon-github.svg" %}
+          </li>
+          <li>
+            {% include icon-link.html
+               base_url="https://www.linkedin.com/in/"
+               username=site.linkedin_username
+               icon="icon-linkedin.svg" %}
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-right">
+        <p>{{ site.description | escape }}</p>
+        <p>This site is powered by <a href="https://jekyllrb.com/">Jekyll</a> and the
+           <a href="https://github.com/jekyll/minima">Minima</a> theme. It is hosted on
+           <a href="https://pages.github.com">GitHub Pages</a>.
+        </p>
+        <p>Any views or opinions expressed on this site are my own and do not necessarily reflect
+           those of any past or current employer. Futhermore, while I do my best to provide accurate
+           information, I do not guarantee the accuracy of any statements made.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
