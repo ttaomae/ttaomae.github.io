@@ -11,6 +11,11 @@ theme: minima
 
 permalink: posts/:year/:month/:day/:slug.html
 
+# jekyll-compress-html settings
+compress_html:
+  clippings: all
+  blanklines: true
+
 exclude:
   - Gemfile
   - Gemfile.lock

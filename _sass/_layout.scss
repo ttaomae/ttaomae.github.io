@@ -1,9 +1,44 @@
-// override minima/_layout.scss to make page headings larger.
-h1.page-heading {
-  font-size: $base-font-size * 2;
+.page-wrapper {
+  padding: $spacing-unit 0;
 }
 
-.listing {
+.page-content {
+  margin-bottom: $spacing-unit;
+
+  h1 {
+    font-size: $base-font-size * 2.25;
+  }
+  h2 {
+    font-size: $base-font-size * 2;
+  }
+  h3 {
+    font-size: $base-font-size * 1.75;
+  }
+  h4 {
+    font-size: $base-font-size * 1.5;
+  }
+  h5 {
+    font-size: $base-font-size * 1.25;
+  }
+  h6 {
+    font-size: $base-font-size * 1.125;
+  }
+}
+
+.page-header {
+  margin-bottom: $spacing-unit;
+}
+
+h1.page-title {
+  font-size: $base-font-size * 2.5;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+/**
+ * Content listings (i.e. 'listing' layout)
+ */
+.listing-content {
   > ul {
     margin-left: 0;
     list-style: none;
