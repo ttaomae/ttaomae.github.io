@@ -9,7 +9,11 @@ permalink: /posts/
   <li>
     <h2 class="listing-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
     <span class="listing-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-    <div class="listing-summary">{{ post.excerpt }}</div>
+    {% if post.excerpt %}
+    <div class="listing-summary">
+      {{ post.excerpt }}
+    </div>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>
