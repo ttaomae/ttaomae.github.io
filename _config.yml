@@ -10,7 +10,10 @@ linkedin_username: ttaomae
 markdown: kramdown
 theme: minima
 
-permalink: posts/:year/:month/:day/:slug.html
+kramdown:
+  auto_ids: false
+
+permalink: posts/:year/:month/:slug.html
 
 # jekyll-compress-html settings
 compress_html:
