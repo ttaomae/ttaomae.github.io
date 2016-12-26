@@ -1,0 +1,18 @@
+---
+layout: listing
+title: Projects
+permalink: /projects/
+---
+
+<ul>
+  {% for project in site.projects %}
+  <li>
+    <h2 class="listing-title"><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h2>
+    {% if project.excerpt %}
+    <div class="listing-summary">
+      {{ project.excerpt }}
+    </div>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
