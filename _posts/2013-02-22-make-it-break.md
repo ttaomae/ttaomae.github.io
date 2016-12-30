@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Make it Break
+categories: software-engineering
+tags: ics-691 java
 ---
 Quality assurance is an important part of developing any system, product, or service; developing a software system is no exception. Quality assurance can be divided into two broad categories: automated and manual. Manual quality assurance for software systems includes, for example, unit testing and code reviews. Automated quality assurance involves the use of tools such as [static code analysis](http://en.wikipedia.org/wiki/Static_program_analysis) tools.
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A Break From Play - Improvising Interfaces
+categories: software-engineering
+tags: ics-691
 ---
 This week, I've taken a small break from [Play](http://toddtaomae.wordpress.com/category/all/software-engineering/web-application-development/play-framework/) to work on developing an interface for the book exchange app that I've been working on. I have been working with [Twitter Bootstrap](http://twitter.github.io/bootstrap/) and [Divshot](http://www.divshot.com/) which I will describe in this post.
 

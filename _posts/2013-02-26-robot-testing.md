@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Robot Testing
+categories: software-engineering
+tags: ics-691 java robocode testing
 ---
 In a previous post I touched upon the idea of testing software, in the context of [FizzBuzz]({{ site.baseurl }}{% post_url 2013-01-16-fizzbuzz %}). Today, I will discuss testing once again. This time, instead of testing a simple program like FizzBuzz, I will be testing a more complex system. Specifically, I will be testing a Robocode robot.
 

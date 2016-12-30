@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Creating Applications With JavaFX
+categories: software-engineering
+tags: java javafx
 ---
 It's been a while since my [last post]({{ site.baseurl }}{% post_url 2014-01-08-testing-out-test-driven-development %}), but it's summer now so I'll have time to work on some projects which I will write about in the coming weeks. Last time I mentioned using [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) to create the GUI for a project. In this post I will give my attempt at a JavaFX crash course as well as talk about my experiences with it so far.
 

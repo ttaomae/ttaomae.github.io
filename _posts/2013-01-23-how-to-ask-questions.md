@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How to Ask Questions
+categories: miscellaneous
+tags: ics-691
 ---
 Do you know how to ask a question? It seems simple, right? Well, it is. Anyone can ask a question. On the other hand, asking a *good* question is a completely different matter. In particular, it can be very difficult to ask a good question about a technical problem.
 

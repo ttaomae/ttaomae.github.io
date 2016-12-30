@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Robocode - RedShift
+categories: software-engineering
+tags: ics-691 java robocode
 ---
 In my last post I talked about testing the [Robocode](http://robocode.sourceforge.net/) robot which I have been developing for the past few weeks. Today I will be going into more depth about the robot and the project in general.
 

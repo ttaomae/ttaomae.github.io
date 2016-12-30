@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Testing Out Test-Driven Development
+categories: software-engineering
+tags: java testing
 ---
 In the past I've talked a little about some of my experiences with software testing. However, my experience with any formal approaches to testing have been fairly limited. In this post I will describe my first experience with test-driven development.
 

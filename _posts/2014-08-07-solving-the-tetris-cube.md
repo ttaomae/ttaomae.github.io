@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Solving the Tetris Cube
+categories: computer-science
 mathjax: enable
 ---
 About a year ago someone lent me a [Tetris Cube](http://www.amazon.com/dp/B000PWPAJ4) which has been sitting in my office since then. Being a fan of puzzles I thought it would be fun to tinker away at it occasionally during any down time or if I needed to clear my mind. For a few months I would spend a few minutes here and there trying to solve it. After a while I figured that my puzzle solving skills would not be enough and decided to put my programming skills to use. Since then I have hardly touched the puzzle and I haven't had much time to try to create a solver until recently.

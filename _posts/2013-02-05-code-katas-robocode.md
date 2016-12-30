@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Code Katas - Robocode
+categories: software-engineering
+tags: ics-691 java robocode
 ---
 [Kata](http://en.wikipedia.org/wiki/Kata) is a Japanese term which is usually applied to martial arts. It refers to a series of choreographed movements used to practice good technique. More recently it has been used more generally and applied to many areas outside the realm of martial arts, such as software engineering.
 

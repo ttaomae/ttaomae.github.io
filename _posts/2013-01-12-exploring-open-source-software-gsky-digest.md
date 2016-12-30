@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Exploring Open Source Software - gSky Digest
+categories: software-engineering
+tags: ics-691
 excerpt_separator: <!--end_exceprt-->
 ---
 

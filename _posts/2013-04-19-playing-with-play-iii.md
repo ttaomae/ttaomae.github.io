@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Playing With Play Part III - Creating Controllers
+categories: software-engineering
+tags: ics-691 java play-framework
 ---
 A [few weeks ago]({{ site.baseurl }}{% post_url 2013-04-03-playing-with-play %}) I started working with the Play Framework, which claims to make it "easy to build web applications with Java & Scala." However, I am seriously starting to doubt that. The more I use it, the less it feels like play, and the more if feels like very frustrating work.
 

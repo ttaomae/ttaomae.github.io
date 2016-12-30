@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Creating a Chat Application with Sockets
+category: software-engineering
+tags: java
 ---
 Several months ago I found myself with some free time and decided to experiment with some simple network programming. I created a simple chat program in Java using sockets. This post will describe my first experience with sockets and perhaps even serve as simple tutorial for using sockets in Java.
 

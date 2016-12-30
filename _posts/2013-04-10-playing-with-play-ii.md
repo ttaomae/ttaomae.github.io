@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Playing with Play Part II - Making Models
+categories: software-engineering
+tags: ics-691 java play-framework
 ---
 [Last week]({{ site.baseurl }}{% post_url 2013-04-03-playing-with-play %}) I discussed my brief experience with the Play Framework. This week I've continued to explore the framework with a focus on the model part of the [MVC architecture](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).
 

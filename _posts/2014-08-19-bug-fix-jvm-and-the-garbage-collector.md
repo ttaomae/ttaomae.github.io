@@ -2,6 +2,8 @@
 layout: post
 title: '"Bug" fix: JVM and the Garbage Collector, or "Why is the JVM using all cores
   at 100% and making no progress?"'
+categories: software-engineering
+tags: bug-fix java
 ---
 
 In my [last post]({{ site.baseurl }}{% post_url 2014-08-07-solving-the-tetris-cube %}) I discussed my journey towards solving a puzzle using programming. It was quite a long post so I decided to leave out some details and one particular roadblock that I ran into.

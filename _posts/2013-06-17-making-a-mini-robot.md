@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Making a Mini Robot
+categories: software-engineering
+tags: java robocode
 ---
 In my last post about [Robocode](http://toddtaomae.wordpress.com/category/all/robocode/) I described my attempt at a competitive one-versus-one robot. In this post I talk about my attempts to shrink my robot so that I could submit it to the <a>RoboRumble</a> to see how it does against other robots from around the world.
 

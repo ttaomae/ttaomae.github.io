@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Implementing Image Processing Algorithms
+categories: computer-science
+tag: computer-vision
 mathjax: enable
 ---
 Throughout the past semester, as part of my [computer vision](http://en.wikipedia.org/wiki/Computer_vision) course, I had to implement several image processing and computer vision techniques and algorithms to operate on grayscale images. There were three programming tasks in total. The first was to count the number of objects in a particular image, which required several simple steps. The second was to implement an edge detection algorithm, specifically [Canny edge detector](http://en.wikipedia.org/wiki/Canny_edge_detector). The last programming assignment was to implement [photometric stereo](http://en.wikipedia.org/wiki/Photometric_stereo). This post will contain three (mostly) independent sections describing each of the assignments.

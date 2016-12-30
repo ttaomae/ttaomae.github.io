@@ -18,6 +18,12 @@ permalink: posts/:year/:month/:slug
 collections:
   projects:
     output: true
+  my_categories:
+    output: true
+    permalink: posts/category/:slug
+  my_tags:
+    output: true
+    permalink: posts/tag/:slug
 
 # jekyll-compress-html settings
 compress_html:

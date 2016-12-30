@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Gesture Recognition with the Microsoft Kinect
+categories: computer-science
+tags: human-computer-interaction computer-vision
 ---
 With recent advances in technology, new methods of computer interaction are becoming available. In this blog post I will briefly describe my investigation of gesture recognition using the [Microsoft Kinect for Windows](http://www.microsoft.com/en-us/kinectforwindows/) as a means of controlling software. For a much more detailed description of the methods and results of this project, you can read [the paper]({{ site.baseurl}}/files/gesture-recogntion-with-the-microsoft-kinect.pdf).
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Playing With Play Part IV - Creating Views
+categories: software-engineering
+tags: ics-691 java play-framework
 ---
 This post will likely conclude my [journey](http://toddtaomae.wordpress.com/category/all/software-engineering/web-application-development/play-framework/) with the Play Framework. Although I have not completely finished the application that I originally set out to create, I am satisfied with what I have learned about the [MVC architecture](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), the Play Framework, and web application development in general.
 

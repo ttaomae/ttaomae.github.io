@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Playing with Play
+categories: software-engineering
+tags: ics-691 java play-framework
 ---
 This week I've started working with The Play Framework, which is a web application framework. The extent of my web development includes playing around with basic html and javascript, so this should be an intersting experience. I hope to have several updates over the coming weeks about my first real experience with web application development.
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Open Source Software
+categories: miscellaneous
+tags: ics-691
 ---
 In my [first post]({{ site.baseurl }}{% post_url 2013-01-12-exploring-open-source-software-gsky-digest %}) I talked about my brief investigation of a piece of open source software. Today I will attempt to explain free and open source software, as well as give my perspective on the issue.
 
