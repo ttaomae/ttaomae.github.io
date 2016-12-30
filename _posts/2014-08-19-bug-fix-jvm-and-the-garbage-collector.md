@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"Bug" fix: JVM and the Garbage Collector, or "Why is the JVM using all cores
+title: '"Bug" Fix: JVM and the Garbage Collector, or "Why is the JVM using all cores
   at 100% and making no progress?"'
 categories: software-engineering
 tags: bug-fix java
