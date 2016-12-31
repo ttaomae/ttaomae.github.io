@@ -4,7 +4,7 @@ title: Making a Mini Robot
 categories: software-engineering
 tags: java robocode
 ---
-In my last post about [Robocode](/posts/tag/robocode) I described my attempt at a competitive one-versus-one robot. In this post I talk about my attempts to shrink my robot so that I could submit it to the <a>RoboRumble</a> to see how it does against other robots from around the world.
+In my last post about [Robocode]({{ site.baseurl }}{% link _my_tags/robocode.md %}) I described my attempt at a competitive one-versus-one robot. In this post I talk about my attempts to shrink my robot so that I could submit it to the <a>RoboRumble</a> to see how it does against other robots from around the world.
 
 ## RoboRumble
 RoboRumble is a system which attempts to provide rankings for Robocode robots. It relies on users to run battles. The results are then sent to a server and aggregated to provide a ranking for each robot. Submitting a robot to the RoboRumble is as simple as adding its name and a download link to a wiki page.

@@ -4,7 +4,7 @@ title: A Break From Play - Improvising Interfaces
 categories: software-engineering
 tags: ics-691
 ---
-This week, I've taken a small break from [Play](/posts/tag/play-framework) to work on developing an interface for the book exchange app that I've been working on. I have been working with [Twitter Bootstrap](http://twitter.github.io/bootstrap/) and [Divshot](http://www.divshot.com/) which I will describe in this post.
+This week, I've taken a small break from [Play]({{ site.baseurl }}{% link _my_tags/play-framework.md %}) to work on developing an interface for the book exchange app that I've been working on. I have been working with [Twitter Bootstrap](http://twitter.github.io/bootstrap/) and [Divshot](http://www.divshot.com/) which I will describe in this post.
 
 ## Twitter Bootstrap
 Twitter Bootstrap is a framework for developing front-end interfaces for websites and web applications. It has been gaining a lot of popularity lately and it is (or at least seems to be) used by a number of high-profile websites such as [NASA](http://www.nasa.gov/) and [CNN](http://www.cnn.com/). After using it for the past few days, it's easy to see why it is becoming so popular. With a basic understanding of HTML it is easy to use the framework by simply linking to the necessary CSS and JavaScript files in your HTML source. In a matter of minutes, you can start to build a [responsive](http://en.wikipedia.org/wiki/Responsive_web_design) website that would otherwise take hours and would probably not play well with all devices.

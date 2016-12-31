@@ -6,7 +6,7 @@ date: 2013-12-23 16:10:53.000000000 -10:00
 For this project, my partner and I explored a small subset of the capabilities of the Microsoft Kinect. Specifically, we used the skeletal tracking feature to detect gestures which are then used to control presentation software.
 
 ## Gesture Recognition
-[<img src="{{ site.baseurl }}/files/skeleton_example.png" alt="skeleton example">]({{ site.baseurl }}/files/skeleton_example.png)
+[<img src="{{ site.baseurl }}{% link files/skeleton_example.png %}" alt="skeleton example">]({{ site.baseurl }}{% link files/skeleton_example.png %})
 
 In this project we outline the importance of developing good gestures when they are used in support of a different, primary activity. When the gestures are secondary to a primary activity, they must be distinct from motions or actions that might be performed during the primary activity in order to reduce false detections.
 
@@ -15,5 +15,4 @@ We developed five different gestures that are used to perform various actions in
 ## Results
 We conducted a test with approximately forty users to test the accuracy of our gesture detection. Each user also completed a survey giving feedback on the usability and enjoyment of the gestures. There is still room for improvement of both the accuracy and usability of the gestures, but our results so far have been fairly positive. The accuracy for the various gestures averaged around 85 percent and the surveys indicated that the users generally had a positive experience with the gestures.
 
-For a more information about the project including more detailed discussions of the methods and results, you can read my [blog post]({{ site.base_url }}{% post_url 2013-12-23-gesture-recognition-with-the-microsoft-kinect %}) about it or you can read [the paper]({{ site.baseurl }}/files/gesture-recogntion-with-the-microsoft-kinect.pdf).
-
+For a more information about the project including more detailed discussions of the methods and results, you can read my [blog post]({{ site.baseurl }}{% post_url 2013-12-23-gesture-recognition-with-the-microsoft-kinect %}) about it or you can read [the paper]({{ site.baseurl }}{% link files/gesture-recognition-with-the-microsoft-kinect.pdf %}).

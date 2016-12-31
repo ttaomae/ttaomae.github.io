@@ -17,7 +17,7 @@ My goal for today was to find a Java-based open source project that is of intere
 
 [<img src="gsky.png" alt="gsky" />](gsky.png)
 
-After browsing through some of the different categories at [SourceForge](http://www.sourceforge.net/), I decided to take a look at [gSky Digest](http://gskydigest.sourceforge.net/). gSky Digest is a lightweight application that notifies the user of various astronomy events ranging from the phases of the moon to the [apogeum](//en.wiktionary.org/wiki/apogeum) and [perigeum](//en.wiktionary.org/wiki/perigeum) of the various bodies of the Solar System. Currently it only has support for the Sun, the Moon, and the seven planets (excluding Earth). However, the goal is to provide information for all events that can be observed by the naked eye or using binoculars.
+After browsing through some of the different categories at [SourceForge](http://www.sourceforge.net/), I decided to take a look at [gSky Digest](http://gskydigest.sourceforge.net/). gSky Digest is a lightweight application that notifies the user of various astronomy events ranging from the phases of the moon to the [apogeum](https://en.wiktionary.org/wiki/apogeum) and [perigeum](https://en.wiktionary.org/wiki/perigeum) of the various bodies of the Solar System. Currently it only has support for the Sun, the Moon, and the seven planets (excluding Earth). However, the goal is to provide information for all events that can be observed by the naked eye or using binoculars.
 
 Overall, I found that gSky Digest satisfies the first two Prime Directives fairly well. Of course, that is not to say that there are no problems. Its greatest shortcoming is in satisfying the third Prime Directive, which I would argue is that most difficult to accomplish.
 
