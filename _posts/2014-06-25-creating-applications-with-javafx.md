@@ -14,6 +14,7 @@ There are two main ways that you can use JavaFX to create your applications. Fir
 Another option instead of doing all of that manually, is to use the [JavaFX Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html), which is visual layout tool that will output FXML for you. The end result is, presumably, the same or similar to writing FXML on your own. I personally stayed away from it since my interface would be fairly simple and so that I would have a better understanding of what was going on.
 
 ## Getting Started with JavaFX
+
 ### Setting up Your Development Environment
 As I mentioned earlier, in Java 7 (which I am using), JavaFX is included with the JRE but not in the default classpath. This means that if you try to compile or run a JavaFX application without some initial setup, you'll probably get some kind of class not found errors. To fix this, you will either need to add the JavaFX JAR as a library or dependency to whatever IDE and/or build tool you are using. Or you can muck around with your JDK installation a bit. Since I was using [Maven](http://maven.apache.org/) to build my project, I ended up using a [JavaFX Maven Plugin](http://zenjava.com/javafx/maven/index.html) which has a command to help fix the classpath. If you would prefer not to do that you can find the necessary JAR file at `JAVA_HOME/jre/lib/jfxrt.jar`. So, for example, with Eclipse you can go to `Project > Properties > Java Build Path > Libraries > Add External JARs` then select the JAR file that I mentioned.
 
