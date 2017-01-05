@@ -1,4 +1,14 @@
 /**
+ * Mixins
+ */
+@mixin vertical-align-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: perspective(1px) translateY(-50%);
+          transform: perspective(1px) translateY(-50%);
+}
+
+/**
  * Main content
  */
 .page-wrapper {
@@ -104,4 +114,64 @@ h1.page-title {
 
 .username {
   vertical-align: baseline;
+}
+
+/**
+ * Header navigation
+ */
+.site-nav {
+  float: right;
+  height: 56px;
+
+  .page-link {
+    color: $text-color;
+  }
+
+  > ul.nav-list {
+    height: 56px;
+    margin-bottom: 0;
+    list-style: none;
+    > li {
+      // place items on single line
+      float: left;
+      @include vertical-align-center;
+      // 10px between items
+      margin-left: 5px;
+      margin-right: 5px;
+
+      // hide sublist ...
+      > ul.nav-sublist {
+        display: none;
+      }
+      // ... until hover on parent item
+      &:hover {
+        > ul.nav-sublist {
+          // display submenu with border
+          display: block;
+          background-color: $background-color;
+          border: 1px solid $grey-color-light;
+          border-radius: 5px;
+
+          list-style: none;
+          margin-left: 0;
+          position: absolute;
+
+          // a hack for Firefox (and maybe other browsers) so that there is
+          // no gap between the parent item and the sublist
+          margin-top: -1px;
+
+          > li {
+            transform: none;
+            padding: 3px 3px;
+            margin-left: 0;
+            margin-right: 0;
+
+            line-height: 2ex;
+            text-align: left;
+            float: none;
+          }
+        }
+      }
+    }
+  }
 }
