@@ -46,6 +46,16 @@
   h6 {
     font-size: $base-font-size * 1.125;
   }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: solid black 1px;
+    th, td {
+      border-bottom: solid black 1px;
+      padding: 5px 5px;
+    }
+  }
 }
 
 .page-header {

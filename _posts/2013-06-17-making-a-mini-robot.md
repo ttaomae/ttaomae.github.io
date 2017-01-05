@@ -14,7 +14,6 @@ To make things more interesting, there are several weight classes which are base
 
 | Class | Code Size |
 |:------|:----------|
-| Class | Code Size |
 | General | No restrictions |
 | MiniBots | 1499 bytes or less |
 | MicroBots | 749 bytes or less |
