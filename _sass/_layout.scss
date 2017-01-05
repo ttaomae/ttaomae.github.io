@@ -1,11 +1,20 @@
 /**
  * Mixins
  */
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+          transform: $transform;
+}
+
+@mixin width-calc($width) {
+  width: -webkit-calc(#{$width});
+  width:         calc(#{$width});
+}
+
 @mixin vertical-align-center {
   position: relative;
   top: 50%;
-  -webkit-transform: perspective(1px) translateY(-50%);
-          transform: perspective(1px) translateY(-50%);
+  @include transform(perspective(1px) translateY(-50%));
 }
 
 /**
@@ -52,17 +61,16 @@ h1.page-title {
 /**
  * Site footer
  */
- @mixin footer-width($width) {
-  width: -webkit-calc(#{$width} - (#{$spacing-unit} / 2));
-  width:         calc(#{$width} - (#{$spacing-unit} / 2));
- }
+@mixin footer-width($width) {
+  @include width-calc(#{$width} - (#{$spacing-unit} / 2));
+}
 
 .footer-col-left {
-    @include footer-width(35%);
+  @include footer-width(35%);
 }
 
 .footer-col-right {
-    @include footer-width(65%);
+  @include footer-width(65%);
 }
 
 @include media-query($on-laptop) {
