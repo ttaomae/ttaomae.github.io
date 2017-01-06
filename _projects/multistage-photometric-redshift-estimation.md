@@ -20,10 +20,10 @@ This project attempts to estimate photometric redshift using a multistage approa
 
 ### Results
 
-[<img src="{{ site.baseurl }}{% link files/1m_results_split0_specvphot.png %}" alt="spectroscopic vs photometric, no split" />]({{ site.baseurl }}{% link files/1m_results_split0_specvphot.png %})
+[<img src="{{ site.baseurl }}{% link projects/1m_results_split0_specvphot.png %}" alt="spectroscopic vs photometric, no split" />]({{ site.baseurl }}{% link projects/1m_results_split0_specvphot.png %})
 
-[<img src="{{ site.baseurl }}{% link files/1m_results_split2_specvphot.png %}" alt="spectroscopic vs photometric, split" />]({{ site.baseurl }}{% link files/1m_results_split2_specvphot.png %})
+[<img src="{{ site.baseurl }}{% link projects/1m_results_split2_specvphot.png %}" alt="spectroscopic vs photometric, split" />]({{ site.baseurl }}{% link projects/1m_results_split2_specvphot.png %})
 
 My multistage approach seems to perform comparably to one existing method. The two images provide a comparison of <a href="http://xxx.lanl.gov/abs/astro-ph/0311058">ANNz</a> [<a href="http://www.homepages.ucl.ac.uk/~ucapola/annz.html">website/download</a>] (first image), and my multistage approach (second image), which uses ANNz for the second stage. The results are not obvious from looking at the images because they contain so many points (500,000 galaxies with redshift between 0 and approximately 0.6). However, the average error is much more telling. After removing outliers, both the standard ANNz and my multistage approach have approximately the same average error (13.37%).
 
-A much more detailed description of this project and the results can be found [here]({{ site.baseurl }}{% link files/multistage_photometric_redshift_estimation.pdf %}).
+A much more detailed description of this project and the results can be found [here]({{ site.baseurl }}{% link projects/multistage_photometric_redshift_estimation.pdf %}).

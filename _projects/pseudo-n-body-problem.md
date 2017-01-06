@@ -4,7 +4,7 @@ title: Pseudo-n-body Problem
 display-order: 1
 excerpt_separator: <!--end_excerpt-->
 ---
-[<img src="{{ site.baseurl }}/files/nbody.png" alt="n-body" />]({{ site.baseurl }}/files/nbody.png)
+[<img src="{{ site.baseurl }}{% link projects/nbody.png %}" alt="n-body" />]({{ site.baseurl }}{% link projects/nbody.png %})
 
 This is a project that I worked on during my last semester of my undergraduate studies. It was an individual project under faculty supervision. My goal was to introduce myself to general-purpose computing on graphics processing units ([GPGPU](http://en.wikipedia.org/wiki/GPGPU)). For this project I used [OpenCL](http://en.wikipedia.org/wiki/OpenCL).
 <!--end_excerpt-->
