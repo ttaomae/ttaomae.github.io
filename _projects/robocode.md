@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Robocode
+display-order: 0
 ---
 Some details about my experiences with [Robocode](http://robocode.sourceforge.net/) can be found [here](http://toddtaomae.wordpress.com/category/all/software-engineering/robocode/). I will use this page to briefly document my attempts at developing competitive Robocode robots.
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Multistage Photometric Redshift Estimation
+display-order: 2
 ---
 Redshift is the effect of light form an object being shifted towards the red end of the visible spectrum. This effect occurs when an object is moving away from the observer. Due to the Doppler effect, the wavelength of the light is increased and the object appears redder.
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gesture Recognition with the Microsoft Kinect
-date: 2013-12-23 16:10:53.000000000 -10:00
+display-order: 3
 ---
 For this project, my partner and I explored a small subset of the capabilities of the Microsoft Kinect. Specifically, we used the skeletal tracking feature to detect gestures which are then used to control presentation software.
 

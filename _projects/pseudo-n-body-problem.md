@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Pseudo-n-body Problem
+display-order: 1
 excerpt_separator: <!--end_excerpt-->
 ---
 [<img src="{{ site.baseurl }}/files/nbody.png" alt="n-body" />]({{ site.baseurl }}/files/nbody.png)
