@@ -353,7 +353,7 @@ If you want to fine tune the behavior and appearance of your application, you wi
 
 First the result.
 
-[<img src="javafx_example_scene_graph.png" alt="JavaFX example scene graph" />](javafx_example_scene_graph.png)
+[<img src="javafx_example_4.png" alt="JavaFX example 4" />](javafx_example_4.png)
 
 And then the code to produce it using both approaches.
 
