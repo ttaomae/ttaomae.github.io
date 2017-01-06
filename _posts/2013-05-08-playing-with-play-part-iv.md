@@ -58,6 +58,7 @@ To use, include the following in your view file:
   </div>
 </div>
 ```
+{:.titled-code-block title="twitterBootstrapInput.scala.html"}
 
 ### Creating Views
 In general, creating views with the Play Framework is pretty simple if you have a decent understanding of HTML. Views in the Play Framework are sort of a mix between Scala and HTML files. You can create a view with just pure HTML, but Play allows you to pass in parameters and call other views, sort of like you would call a method.
@@ -91,6 +92,7 @@ For example, I have a two views called `main.scala.html` and `index.scala.html` 
   </body>
 </html>
 ```
+{:.titled-code-block title="main.scala.html"}
 
 ```html
 @main("Student Book Exchange | Homepage") {
@@ -109,6 +111,7 @@ For example, I have a two views called `main.scala.html` and `index.scala.html` 
   </div>
 }
 ```
+{:.titled-code-block title="index.scala.html"}
 
 Basically, anything that begins with an `@` will be replaced with the appropriate content. For example, the main view has a parameter named title, which is a String (line 1). The index view calls the main view with the argument `"Student Book Exchange | Homepage"` so the index page, will contain everything in the main view, except with `@title` (line 7) replaced with the appropriate text. Similarly, `@content` (line 23) will be replaced with everything in between the curly braces in the index view. Line 16 from the main view provides another example. In this case, the `href` will be replaced with whatever the appropriate URL is based on that particular route.
 
@@ -158,6 +161,7 @@ Another more complex example can be seen in my file `bookList.scala.html`
 </div>
 }
 ```
+{:.titled-code-block title="bookList.scala.html"}
 
 Notice that this view has a parameter which is a list of books. This allows us to do some interesting things in the view. For example, on line 23, there is a loop so that we can list all of the books. The information in the `td` tags will be replaced with whatever each method call returns. You can even use conditionals as shown in lines 30 and 31.
 
@@ -202,6 +206,7 @@ Another powerful feature of Play is its [form helpers](http://www.playframework.
 </div>
 }
 ```
+{:.titled-code-block title="bookCreate.scala.html"}
 
 It shouldn't be too hard to decipher how the `form` and `inputText` helpers work to create an actual HTML form. (See the link at the end of this post for screenshots of the application.)
 

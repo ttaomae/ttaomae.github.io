@@ -50,6 +50,7 @@ public class Main extends Application {
     }
 }
 ```
+{:.titled-code-block title="Main.java"}
 
 ## Programmatic JavaFX
 Here is a simple example of how to use JavaFX to programmatically create a simple GUI.
@@ -69,12 +70,14 @@ public class ExamplePanel extends HBox {
     }
 }
 ```
+{:.titled-code-block title="ExamplePanel.java"}
 
 We then need to update our `Main` class.
 
 ```java
 Parent root = new ExamplePanel();
 ```
+{:.titled-code-block title="Main.java"}
 
 Running this program will give us a simple application.
 
@@ -112,10 +115,12 @@ public class ExamplePanel extends HBox {
     }
 }
 ```
+{:.titled-code-block title="ExamplePanel.java"}
 
 Here's what our application now looks like before and after clicking the button.
 
 [<img src="javafx_example_2a.png" alt="JavaFX example 2a" />](javafx_example_2a.png)
+
 [<img src="javafx_example_2b.png" alt="JavaFX example 2b" />](javafx_example_2b.png)
 
 In this example we change the text of the label when the button is clicked. To do this we call the `setOnAction` method of our button which expects an `EventHandler`. We could create a separate class; maybe something like `class MyButtonHandler implements EventHandler`. However, it would quickly become cumbersome to create a new class for each button we might have, especially when it will only be used once. For situations like this, Java provides anonymous inner classes. It is called *anonymous* because it has no name and it is called *inner* because it is defined inside of another class.
@@ -176,6 +181,7 @@ public class ExamplePanel extends VBox {
     }
 }
 ```
+{:.titled-code-block title="ExamplePanel.java"}
 
 The updated application will not look like this.
 
@@ -209,12 +215,14 @@ Next I will explain how we can make the same layout using FXML. First we need an
   <Slider />
 </VBox>
 ```
+{:.titled-code-block title="example_panel.fxml"}
 
 Then we need to update our `Main` class again.
 
 ```java
 Parent root = FXMLLoader.load(getClass().getResource("example_panel.fxml"));
 ```
+{:.titled-code-block title="Main.java"}
 
 You must be sure that your FXML file is in the same directory as your compiled class files, or you need to specify the full path to the layout file.
 
@@ -237,6 +245,7 @@ At this point our application won't do anything because it no longer has any cod
       onValueChange="# handleSliderChange" />
 </VBox>
 ```
+{:.titled-code-block title="example_panel.fxml"}
 
 And add this class.
 
@@ -261,6 +270,7 @@ public class ExampleController {
     }
 }
 ```
+{:.titled-code-block title="ExampleController.java"}
 
 In our FXML file we specify a controller and give our components IDs. In our controller class, we create the same instance variables as before, except this time we add the `@FXML` annotation, which signifies that they are accessible to FXML files. You must ensure that their names exactly match the ID specified in the FXML file. We also added `onAction` and `onValueChange` properties to our `Button` and `Slider`, respectively. These properties specify which method will be called when an action or value change occurs.
 
@@ -276,6 +286,7 @@ If we want to create something that can be reused, we can turn it into a custom 
   <!-- content omitted -->
 </fx:root>
 ```
+{:.titled-code-block title="example_control.fxml"}
 
 ```java
 import java.io.IOException;
@@ -300,11 +311,13 @@ public class ExampleControl extends VBox {
     // methods omitted
 }
 ```
+{:.titled-code-block title="ExampleControl.java"}
 And of course we need to update our `Main` class once again.
 
 ```java
 Parent root = new ExampleControl();
 ```
+{:.titled-code-block title="Main.java"}
 
 First, in our FXML file we change the top level tag to be a `fx:root` instead of a `VBox`. Then we change what was our controller to load the FXML file in the constructor. The other methods to handle events remain the same.
 
@@ -333,6 +346,7 @@ So in the previous examples, we should have done something like this:
         });
     }
 ```
+{:.titled-code-block title="ExampleController.java"}
 
 ### Creating and Setting Properties
 If you want to fine tune the behavior and appearance of your application, you will need to understand properties. First, I'll start with an example of setting properties of built in components. It's pretty self explanatory so I will just leave you with an example using a Slider with both the programmatic and the FXML approach.
@@ -352,6 +366,7 @@ this.slider.setMinorTickCount(1);
 this.slider.setShowTickMarks(true);
 this.slider.setSnapToTicks(true);
 ```
+{:.titled-code-block title="ExamplePanel.java"}
 
 ```xml
 <Slider fx:id="slider"
@@ -361,6 +376,7 @@ this.slider.setSnapToTicks(true);
     snapToTicks="true"
     onValueChange="# handleSliderChange" />
 ```
+{:.titled-code-block title="example_control.fxml"}
 
 Some properties might take an object instead of a simple number or boolean. For example, we might want set the `padding` property which expects an `Insets` object. Again, I will leave you with an example.
 
@@ -375,6 +391,7 @@ import javafx.geometry.Insets
       // content omitted
     }
 ```
+{:.titled-code-block title="ExamplePanel.java"}
 
 ```xml
 <?import javafx.geometry.*?>
@@ -385,6 +402,7 @@ import javafx.geometry.Insets
   <!-- content omitted -->
 </fx:root>
 ```
+{:.titled-code-block title="example_control.fxml"}
 
 The programmatic approach probably looks like what you would expect. However, the FXML version is a little different than before. This time instead of just saying `property="value"` we have the property name as a tag and the value goes inside that tag. In this case, the value is a new `Insets` which we create similarly to how we create other components.
 
@@ -418,6 +436,7 @@ You can also create properties for your own components. I'm still a little fuzzy
         timesClickedProperty().set(clicks);
     }
 ```
+{:.titled-code-block title="ExampleControl.java"}
 
 If you follow the correct naming convention, which I hope if fairly obvious from my example, you should be able to use that property the same way you would with the `Slider` properties that I showed above. Using a similar approach you can also create properties for other types, including objects.
 

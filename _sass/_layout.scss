@@ -56,6 +56,18 @@
       padding: 5px 5px;
     }
   }
+
+  .highlighter-rouge {
+    line-height: 2ex;
+  }
+
+  .titled-code-block {
+    &:before {
+      content: attr(title);
+      font-family: monospace;
+      font-weight: bold;
+    }
+  }
 }
 
 .page-header {

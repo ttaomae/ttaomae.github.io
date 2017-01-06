@@ -39,6 +39,7 @@ public class ClientExample {
     }
 }
 ```
+{:.titled-code-block title="ClientExample.java"}
 
 If you add the appropriate imports it should compile and run, but it will throw and catch the `IOException` when it tries to create the socket.
 
@@ -66,6 +67,7 @@ public class ServerExample {
     }
 }
 ```
+{:.titled-code-block title="ServerExample.java"}
 
 If you run the above code, it won't do much. It will just wait until it receives a request for a connection. However, if you let it run then also run the client example, it will print out something. Notice that the only print statement in the client is to print whatever it reads from the socket. So what did it read from the socket? It happens to be the same thing that it sent to the socket. Why is that? Take a look at what the server does. It reads a message from the socket then sends it right back.
 
@@ -102,6 +104,8 @@ public class SimpleMultiServerExample {
     }
 }
 ```
+{:.titled-code-block title="SimpleMultiServerExample.java"}
+
 In order to see the new server in action, you should create two copies of the client which each send different messages. As before, start the server first then run the two clients. The first client will receive the message from the second client and the second client will receive the message from the first client.
 
 So now we can handle two clients, but what if we want more? What if we don't know how many clients we will have? We could put the call to `accept()` in a loop, but now we're just stuck waiting for connections and we can never do anything with them. In order to handle an unknown amount of clients and actually do something with them, we will use threads. We will still have a server that accepts connections, but we will also create a separate thread to handle each connection. To do this we will create a class that implements `Runnable` (or extends `Thread`) that will actually work with the socket. Below is an example of how to accomplish this.
@@ -122,6 +126,7 @@ public class BetterMultiServerExample {
     }
 }
 ```
+{:.titled-code-block title="BetterMultiServerExample.java"}
 
 ```java
 public class ClientHandlerExample implements Runnable {
@@ -138,6 +143,7 @@ public class ClientHandlerExample implements Runnable {
     }
 }
 ```
+{:.titled-code-block title="ClientHandlerExample.java"}
 
 Now that we have the skeleton for a basic server (of course, the server I created is a little more complex), we can talk about the client a little more. The client basically just sends messages to the socket then displays messages that it receives from the socket.
 
