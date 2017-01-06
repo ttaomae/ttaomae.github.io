@@ -84,7 +84,7 @@ h1.page-title {
  * Site footer
  */
 @mixin footer-width($width) {
-  @include width-calc(#{$width} - (#{$spacing-unit} / 2));
+  @include width-calc(#{$width}-(#{$spacing-unit}/2));
 }
 
 .footer-col-left {
