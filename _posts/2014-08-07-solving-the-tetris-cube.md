@@ -55,11 +55,11 @@ Luckily, smarter people than I have worked on solving this problem in a relative
   \hline
   & a & b & c & 1 & 2 & 3 & 4 & 5 & 6 \\
   \hline
-  bf{A} & 1 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 \\
+  \bf{A} & 1 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 \\
   \hline
-  bf{B} & 1 & 0 & 0 & 1 & 0 & 1 & 0 & 0 & 0 \\
+  \bf{B} & 1 & 0 & 0 & 1 & 0 & 1 & 0 & 0 & 0 \\
   \hline
-  bf{C} & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 0 \\
+  \bf{C} & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 0 \\
   \hline
 \end{array}
 \)</p>
