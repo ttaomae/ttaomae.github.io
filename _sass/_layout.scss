@@ -29,7 +29,7 @@
   .post-meta {
     .category-link, .tag-link {
       color: $text-color;
-      background-color: white;
+      background-color: $background-color;
       padding: 0 3px;
       border: 1px solid $grey-color;
       border-radius: 3px;
