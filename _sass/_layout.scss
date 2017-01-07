@@ -100,15 +100,15 @@ h1.page-title {
  * Site footer
  */
 @mixin footer-width($width) {
-  @include width-calc(#{$width}-(#{$spacing-unit}/2));
+  @include width-calc("#{$width} - (#{$spacing-unit} / 2)");
 }
 
 .footer-col-left {
-  @include footer-width(35%);
+  @include footer-width(30%);
 }
 
 .footer-col-right {
-  @include footer-width(65%);
+  @include footer-width(70%);
 }
 
 @include media-query($on-laptop) {
