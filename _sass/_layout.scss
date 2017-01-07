@@ -25,6 +25,22 @@
   padding-bottom: $spacing-unit;
 }
 
+.page-header {
+  .post-meta {
+    .category-link, .tag-link {
+      color: $text-color;
+      background-color: white;
+      padding: 0 3px;
+      border: 1px solid $grey-color;
+      border-radius: 3px;
+      &:hover {
+        text-decoration: none;
+        background-color: $grey-color-light;
+      }
+    }
+  }
+}
+
 .page-content {
   margin-bottom: $spacing-unit;
 
