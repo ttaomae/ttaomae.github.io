@@ -33,3 +33,6 @@ compress_html:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - LICENSE-CONTENT.md
+  - LICENSE-SOURCE.md
