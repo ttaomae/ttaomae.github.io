@@ -3,7 +3,7 @@ There are a number of ways that you can contribute to this project, including,
 but not limited to, discussing a post, suggesting a post topic, reporting
 errors, and suggesting general improvements to the site.
 
-## Discuss a Post.
+## Discuss a Post
 The simplest and perhaps best way to contribute is to discuss a post. Post
 discussions are done through GitHub Issues. Simply click the link at the bottom
 of a post to start a new discussion. This should automatically open the new
