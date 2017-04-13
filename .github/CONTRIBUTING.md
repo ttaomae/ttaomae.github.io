@@ -17,7 +17,7 @@ For example:
 * Discussion: example-post - I don't agree with the conclusion
 
 However, be sure to check for
-[existing discussions](https://github.com/ttaomae/ttaomae.github.io/labels/discussion)
+[existing discussions](https://github.com/ttaomae/ttaomae.github.io/labels/Type%3A%20Discussion)
 first.
 
 ## Report an Error or Suggest an Improvement...
@@ -43,8 +43,8 @@ create an issue using the title format:
 > Post Suggestion - [Your suggestion]
 
 For example:
-* Post Suggestion: Builder pattern
-* Post Suggestion: Java Test Framework Comparison
+* Post Suggestion - Builder pattern
+* Post Suggestion - Java test framework comparison
 
 
 
@@ -74,4 +74,3 @@ This restriction does not include minor issues such as typos, spelling or
 grammar errors, or formatting and markdown errors. It also does not apply to
 other parts of the site such as headers and footers, the post listing, or the
 site design and layout.
-
