@@ -8,7 +8,7 @@
         <li><a class="page-link" href="{{ site.baseurl }}{% link projects.html %}">Projects</a></li>
         <li>Posts
           <ul class="nav-sublist">
-            <li><a class="page-link" href="{{ site.baseurl }}{% link posts.html%}">All</a></li>
+            <li><a class="page-link" href="{{ site.baseurl }}{% link posts.html%}">All</a> <a href="{{ "/feed.xml" | relative_url }}" title="Subscribe via Atom"><span class="feed-icon">{% include feed-icon.svg %}</span></a></li>
             <li><a class="page-link" href="{{ site.baseurl }}{% link posts_by_category.md %}">By&nbsp;Category</a></li>
             <li><a class="page-link" href="{{ site.baseurl }}{% link posts_by_tag.md %}">By&nbsp;Tag</a></li>
           </ul>
