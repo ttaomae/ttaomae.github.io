@@ -151,21 +151,23 @@ h1.page-title {
 }
 
 /**
- * Icons
+ * Footer
  */
-.icon > svg {
-  display: inline-block;
-  vertical-align: baseline;
-  height: 2ex;
-  width: 2ex;
+footer {
+  .icon > svg {
+    display: inline-block;
+    vertical-align: baseline;
+    height: 2ex;
+    width: 2ex;
 
-  path {
-    fill: $grey-color;
+    path {
+      fill: $grey-color;
+    }
   }
-}
 
-.username {
-  vertical-align: baseline;
+  .username {
+    vertical-align: baseline;
+  }
 }
 
 /**
