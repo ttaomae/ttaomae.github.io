@@ -160,7 +160,7 @@ public class TestBullets extends RobotTestBed {
 ```
 
 ### Unit Tests
-The last type of test that I did was a unit test. Unit tests, as the name implies, tests a single unit or component of a system. In this case, I tested my `MathUtility` class, which I use to calculate certain values commonly used in Robocode, such as the distance between two points. Since I know comparing floating point numbers for equality is not as simple as it seems, I did some research and came across [this StackOverflow post](http://stackoverflow.com/questions/5923682/comparing-floating-point-numbers-in-java/5923720# 5923720) which describes a common method, using JUnit, to test floating point numbers.
+The last type of test that I did was a unit test. Unit tests, as the name implies, tests a single unit or component of a system. In this case, I tested my `MathUtility` class, which I use to calculate certain values commonly used in Robocode, such as the distance between two points. Since I know comparing floating point numbers for equality is not as simple as it seems, I did some research and came across [this StackOverflow post](http://stackoverflow.com/questions/5923682/comparing-floating-point-numbers-in-java/5923720#5923720) which describes a common method, using JUnit, to test floating point numbers.
 Below I have provided a small section of my code which uses the described method.
 
 ```java

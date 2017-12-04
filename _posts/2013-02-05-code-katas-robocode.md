@@ -37,7 +37,7 @@ Specifically, I implemented the following robots:
 > 1. **SimpleFiringRobot:** Sit still. Rotate gun. When it is pointing at an enemy, fire.
 > 1. **ConserveBulletsRobot:** Sit still. Pick one enemy. Only fire your gun when it is pointing at the chosen enemy.
 > 1. **ConservePowerRobot:** Sit still. Rotate gun. When it is pointing at an enemy, use bullet power proportional to the distance of the enemy from you. The farther away the enemy, the less power your bullet should use (since far targets increase the odds that the bullet will miss).
-> 1. **TrackingRobot:** Sit still. Pick one enemy and attempt to track it with your gun. In other words, try to have your gun always pointing at that enemy. Don’t fire (you don’t want to kill it).
+> 1. **TrackingRobot:** Sit still. Pick one enemy and attempt to track it with your gun. In other words, try to have your gun always pointing at that enemy. Don't fire (you don't want to kill it).
 
 Given my previous experience with Robocode, after setting up my development environment, it only took a few minutes to refresh my memory and jump right into creating these robots.
 

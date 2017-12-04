@@ -32,7 +32,7 @@ compress_html:
   clippings: all
   blanklines: true
 
-gems:
+plugins:
   - jekyll-feed
 
 exclude:

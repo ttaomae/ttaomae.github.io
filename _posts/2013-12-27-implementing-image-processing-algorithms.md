@@ -86,7 +86,7 @@ I' =
 
 You've probably also noticed that around the edges, the values have changed quite a bit. The reason is because of the way I chose to deal with edge cases where the filter is outside the image. There are several ways to deal with this problem. In this case I chose to assume that anything outside the image has a value of 0. Another possibility is to simply truncate the image. In this case, the resulting image would only be the 3x3 image in the center. Other possibilities include extending the image or wrapping the filter around to the other side of the image.
 
-The last thing you need to know to understand Gaussian blurring is, of course, the Gaussian filter. A Gaussian filter is one that follows a [2-dimensional Gaussian function](http://en.wikipedia.org/wiki/Gaussian_function# Two-dimensional_Gaussian_function). That may sound a little intimidating if you don't know what that means, but many people are probably familiar with it without even realizing it. A [normal distribution](http://en.wikipedia.org/wiki/Normal_distribution), or bell curve as it is often called, follows a Gaussian function. I used the following formula to generate my filter, where *x* and *y* are the coordinates of the filter with *x*=0 and *y*=0 at the center of the filter, and *&sigma;* is the standard deviation.
+The last thing you need to know to understand Gaussian blurring is, of course, the Gaussian filter. A Gaussian filter is one that follows a [2-dimensional Gaussian function](http://en.wikipedia.org/wiki/Gaussian_function#Two-dimensional_Gaussian_function). That may sound a little intimidating if you don't know what that means, but many people are probably familiar with it without even realizing it. A [normal distribution](http://en.wikipedia.org/wiki/Normal_distribution), or bell curve as it is often called, follows a Gaussian function. I used the following formula to generate my filter, where *x* and *y* are the coordinates of the filter with *x*=0 and *y*=0 at the center of the filter, and *&sigma;* is the standard deviation.
 <p>\( \frac{1}{2 \pi \sigma ^2} \cdot e ^ {- \frac{x^2 + y^2}{2 \sigma ^2}} \)</p>
 
 After the filter is generated, it should be normalized so that it sums to 1. This is accomplished by summing all the values then dividing each value by the sum. Below is an example of a normalized filter with *&sigma;*=1.5 and a size of 3.
@@ -162,7 +162,7 @@ Given those two matrices, you can calculate the surface description **g**, which
 \textbf{g} = (\textbf{S}^T \textbf{S})^{-1} \textbf{S}^T \textbf{I}
 \)</p>
 
-Given the surface normal we can estimate the height of the object in the image at each point. Below are two formulas which you can use to find the depth at a point, given the surface normal at that point and the height at an adjacent point. I won't go into detail about the derivation, but if you're interested, you can read [this](http://pages.cs.wisc.edu/~csverma/CS766_09/Stereo/stereo.html# Depth_Map_Generation:).
+Given the surface normal we can estimate the height of the object in the image at each point. Below are two formulas which you can use to find the depth at a point, given the surface normal at that point and the height at an adjacent point. I won't go into detail about the derivation, but if you're interested, you can read [this](http://pages.cs.wisc.edu/~csverma/CS766_09/Stereo/stereo.html#Depth_Map_Generation:).
 <p>\(
 z_{x, y} = z_{x-1, y} - \frac{n_x}{n_z}
 \\

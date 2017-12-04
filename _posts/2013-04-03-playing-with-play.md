@@ -7,7 +7,7 @@ tags: ics-691 java play-framework
 This week I've started working with The Play Framework, which is a web application framework. The extent of my web development includes playing around with basic html and javascript, so this should be an intersting experience. I hope to have several updates over the coming weeks about my first real experience with web application development.
 
 ## The Play Framework
-[<img src="http://upload.wikimedia.org/wikipedia/commons/f/fd/MVC-Process.png" />](http://upload.wikimedia.org/wikipedia/commons/f/fd/MVC-Process.png)
+[<img src="http://upload.wikimedia.org/wikipedia/commons/f/fd/MVC-Process.png" alt="MVC Process" />](http://upload.wikimedia.org/wikipedia/commons/f/fd/MVC-Process.png)
 
 The [Play Framework](http://www.playframework.org/) follows the [model-view-controller](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) (MVC) architecture. To be honest, I still don't quite understand what that means, but the diagram to the right seems to give a simple visual description of the architecture. The MVC architecture is used the by [Ruby on Rails](http://rubyonrails.org/) and [Django](https://www.djangoproject.com/), which are popular web application frameworks for Ruby and Python, respectively.
 

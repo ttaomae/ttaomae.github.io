@@ -17,8 +17,8 @@ layout: default
   {% endif %}
 {% endfor %}
 
-{% capture category_content %}{% if my_categories[0] %} in{% for c in my_categories %} <a class="category-link" href="{{ c.url }}">{{ c.name }}</a>{% endfor %}{% endif %}{% endcapture %}
-{% capture tag_content %}{% if my_tags[0] %} with tag(s):{% for t in my_tags %} <a class="tag-link" href="{{ t.url }}">{{ t.name }}</a>{% endfor %}{% endif %}{% endcapture %}
+{% capture category_content %}{% if my_categories[0] %} in{% for c in my_categories %} <a class="category-link" href="{{ c.url | relative_url }}">{{ c.name }}</a>{% endfor %}{% endif %}{% endcapture %}
+{% capture tag_content %}{% if my_tags[0] %} with tag(s):{% for t in my_tags %} <a class="tag-link" href="{{ t.url | relative_url }}">{{ t.name }}</a>{% endfor %}{% endif %}{% endcapture %}
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
